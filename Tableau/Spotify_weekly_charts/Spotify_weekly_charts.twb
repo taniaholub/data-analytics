@@ -1,0 +1,2095 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='worksheet'>
+      <format attr='color' value='#000000' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='regional-global-weekly-2025-01-30' inline='true' name='federated.1s5p8am0iw9awt1dai0vb1gfg3ik' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='regional-global-weekly-2025-01-30' name='textscan.1urydrj17fehhv15s3ldh0uqkmkc'>
+            <connection class='textscan' directory='C:/Users/Тетяна/Desktop/dataanalitic camp/datasets' filename='regional-global-weekly-2025-01-30.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1urydrj17fehhv15s3ldh0uqkmkc' name='regional-global-weekly-2025-01-30.csv' table='[regional-global-weekly-2025-01-30#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='uk_UA'>
+            <column datatype='integer' name='rank' ordinal='0' />
+            <column datatype='string' name='uri' ordinal='1' />
+            <column datatype='string' name='artist_names' ordinal='2' />
+            <column datatype='string' name='track_name' ordinal='3' />
+            <column datatype='string' name='source' ordinal='4' />
+            <column datatype='integer' name='peak_rank' ordinal='5' />
+            <column datatype='integer' name='previous_rank' ordinal='6' />
+            <column datatype='integer' name='weeks_on_chart' ordinal='7' />
+            <column datatype='integer' name='streams' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;uk&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₴&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='exponent-char'>&quot;е&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;uk_UA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uri</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[uri]</local-name>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias>uri</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>artist_names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[artist_names]</local-name>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias>artist_names</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>track_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[track_name]</local-name>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias>track_name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>peak_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[peak_rank]</local-name>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias>peak_rank</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>previous_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[previous_rank]</local-name>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias>previous_rank</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weeks_on_chart</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weeks_on_chart]</local-name>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias>weeks_on_chart</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>streams</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[streams]</local-name>
+            <parent-name>[regional-global-weekly-2025-01-30.csv]</parent-name>
+            <remote-alias>streams</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='regional-global-weekly-2025-01-30.csv' datatype='table' name='[__tableau_internal_object_id__].[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]' role='measure' type='quantitative' />
+      <column datatype='string' name='[artist_names]' role='dimension' type='nominal' />
+      <column-instance column='[artist_names]' derivation='None' name='[none:artist_names:nk]' pivot='key' type='nominal' />
+      <group caption='Action (artist_names)' hidden='true' name='[Action (artist_names)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[artist_names]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/B342~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1uoj3cb1qp9kmx15whcaa0qoaeqh.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/05/2025 09:41:07 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rank</remote-alias>
+              <ordinal>0</ordinal>
+              <family>regional-global-weekly-2025-01-30.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>200</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>uri</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[uri]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>uri</remote-alias>
+              <ordinal>1</ordinal>
+              <family>regional-global-weekly-2025-01-30.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>200</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>artist_names</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[artist_names]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>artist_names</remote-alias>
+              <ordinal>2</ordinal>
+              <family>regional-global-weekly-2025-01-30.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>149</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>track_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[track_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>track_name</remote-alias>
+              <ordinal>3</ordinal>
+              <family>regional-global-weekly-2025-01-30.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>199</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>source</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[source]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>source</remote-alias>
+              <ordinal>4</ordinal>
+              <family>regional-global-weekly-2025-01-30.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>104</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>peak_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[peak_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>peak_rank</remote-alias>
+              <ordinal>5</ordinal>
+              <family>regional-global-weekly-2025-01-30.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>88</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>previous_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[previous_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>previous_rank</remote-alias>
+              <ordinal>6</ordinal>
+              <family>regional-global-weekly-2025-01-30.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>191</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>weeks_on_chart</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[weeks_on_chart]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>weeks_on_chart</remote-alias>
+              <ordinal>7</ordinal>
+              <family>regional-global-weekly-2025-01-30.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>streams</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[streams]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>streams</remote-alias>
+              <ordinal>8</ordinal>
+              <family>regional-global-weekly-2025-01-30.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>200</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:artist_names:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Bad Bunny&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Coldplay&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Gorillaz&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Lady Gaga, Bruno Mars&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Omar Courtz, De La Rose&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SZA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;The Weeknd, Anitta&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;yung kai&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Adele&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Central Cee, 21 Savage&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Fleetwood Mac&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Journey&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Myke Towers, benny blanco&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Rihanna, Calvin Harris&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;The Kid LAROI, Justin Bieber&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TV Girl&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Arctic Monkeys&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chase Atlantic&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Fuerza Regida, Grupo Frontera&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kendrick Lamar&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Neton Vega&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sabrina Carpenter&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;The Neighbourhood&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tyler, The Creator, Kali Uchis&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bad Bunny, RaiNao&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Djo&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hozier&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Lil Tecca&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Oscar Maydon, Fuerza Regida&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Taylor Swift&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tito Double P&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bad Bunny, Chuwi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Danny Ocean, Kapo&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Gracie Abrams&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lana Del Rey&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;One Direction&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SZA, Kendrick Lamar&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;The Weeknd, Daft Punk&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ariana Grande&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Chezile&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gabito Ballesteros, Natanael Cano, Luis R Conriquez, Neton Vega&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kendrick Lamar, Lefty Gunplay&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nilo, Mc Paiva ZS, DJ Di Marques, FamousKyo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sam Barber, Avery Anna&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;The Police&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tyler, The Creator, Lola Young&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bruno Mars&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Eminem&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Jombriel, Alex Krack, Jøtta&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Miley Cyrus&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Rauw Alejandro, Romeo Santos&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;The Goo Goo Dolls&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Travis Scott&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Alleh, Yorghaki&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Central Cee, Dave&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;FloyyMenor&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Jung Kook, Latto&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Myles Smith&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ROSÉ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;The Killers&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Twenty One Pilots&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Billie Eilish, Khalid&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Drake, Wizkid, Kyla&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Jimin&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Luis R Conriquez, Peso Pluma&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Radiohead&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;The Chainsmokers, Coldplay&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tommy Richman&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Artemas&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Chrystal, NOTION&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GELO&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kendrick Lamar, SZA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Noah Kahan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sexyy Red, Bruno Mars&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;The Walters&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;V, Park Hyo Shin&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Beéle, Ovy On The Drums&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Doechii&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Imagine Dragons&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Linkin Park&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Peso Pluma&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tears For Fears&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tito Double P, Junior H&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Benson Boone&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Don Omar, Lucenzo&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Imogen Heap&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lola Young&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pitbull, AFROJACK, Ne-Yo, Nayer&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Teddy Swims&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tito Double P, Peso Pluma&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Blessd, Anuel AA, Ovy On The Drums&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ed Sheeran&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Jin&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Macklemore, Ryan Lewis, Macklemore &amp; Ryan Lewis, Ray Dalton&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Rauw Alejandro, Bad Bunny&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;The Chainsmokers, Halsey&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;TOTO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Carin Leon, Gabito Ballesteros&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Feid, ATL Jacob&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Jorsshh, Fuerza Regida&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mitski&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rihanna&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;The Kid LAROI&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Travis Scott, Playboi Carti&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bad Bunny, Los Pleneros de la Cresta&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Dionela&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Harry Styles&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lauv&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;OneRepublic&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SZA, Travis Scott&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;The Weeknd, JENNIE, Lily-Rose Depp&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Avicii&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cigarettes After Sex&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Gigi Perez&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Lady Gaga&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nuzio Medeiros, Henry Freitas, Kadu Martins&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Shaboozey&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;The Weeknd&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Vance Joy&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Andmesh&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Chappell Roan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;FloyyMenor, Cris Mj&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;KAROL G&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Natanzinho Lima&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ROSÉ, Bruno Mars&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;The Lantis&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tyla&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Billie Eilish&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Don Toliver&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;J Balvin, Bad Bunny&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lord Huron&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Post Malone, Morgan Wallen&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tenxi, Jemsii, Naykilla&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tom Odell&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bad Bunny, Omar Courtz, Dei V&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;DJ Snake, Justin Bieber&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Henry Freitas, Mc Th&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Lewis Capaldi&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Oruam, Zé Felipe, MC Tuto, Dj Lc da Roça, MC K9, Mc Rodrigo do CN, mc pl alves&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tate McRae&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;The Weeknd, Playboi Carti&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Arcane, Stromae, Pomme&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Charli xcx, Billie Eilish&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Frank Ocean&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Keane&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Naughty Boy, Sam Smith&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ruth B.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;The Marías&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tyler, The Creator, GloRilla, Sexyy Red, Lil Wayne&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ukraine&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='rank' />
+        <field-sort-custom-order field='uri' />
+        <field-sort-custom-order field='artist_names' />
+        <field-sort-custom-order field='track_name' />
+        <field-sort-custom-order field='source' />
+        <field-sort-custom-order field='peak_rank' />
+        <field-sort-custom-order field='Calculation_892838669224013827' />
+        <field-sort-custom-order field='previous_rank' />
+        <field-sort-custom-order field='weeks_on_chart' />
+        <field-sort-custom-order field='streams' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='regional-global-weekly-2025-01-30.csv' id='regional-global-weekly-2025-01-30.csv_6DACBECB138D4B0CB21E5929E2E6C87C'>
+            <properties context=''>
+              <relation connection='textscan.1urydrj17fehhv15s3ldh0uqkmkc' name='regional-global-weekly-2025-01-30.csv' table='[regional-global-weekly-2025-01-30#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='uk_UA'>
+                  <column datatype='integer' name='rank' ordinal='0' />
+                  <column datatype='string' name='uri' ordinal='1' />
+                  <column datatype='string' name='artist_names' ordinal='2' />
+                  <column datatype='string' name='track_name' ordinal='3' />
+                  <column datatype='string' name='source' ordinal='4' />
+                  <column datatype='integer' name='peak_rank' ordinal='5' />
+                  <column datatype='integer' name='previous_rank' ordinal='6' />
+                  <column datatype='integer' name='weeks_on_chart' ordinal='7' />
+                  <column datatype='integer' name='streams' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_53B5164B8781483DBB91E328C179257E]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Most popular artists' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Most popular artists'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='regional-global-weekly-2025-01-30' name='federated.1s5p8am0iw9awt1dai0vb1gfg3ik' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s5p8am0iw9awt1dai0vb1gfg3ik'>
+            <column datatype='string' name='[artist_names]' role='dimension' type='nominal' />
+            <column-instance column='[rank]' derivation='Count' name='[cnt:rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[rank]' derivation='CountD' name='[ctd:rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[artist_names]' derivation='None' name='[none:artist_names:nk]' pivot='key' type='nominal' />
+            <column datatype='integer' name='[rank]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[streams]' role='measure' type='quantitative' />
+            <column-instance column='[streams]' derivation='Sum' name='[sum:streams:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Adele&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Alleh, Yorghaki&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Andmesh&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Arcane, Stromae, Pomme&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Arctic Monkeys&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Ariana Grande&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Artemas&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Avicii&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Bad Bunny&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Bad Bunny, Chuwi&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Bad Bunny, Los Pleneros de la Cresta&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Bad Bunny, Omar Courtz, Dei V&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Bad Bunny, RaiNao&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Beéle, Ovy On The Drums&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Benson Boone&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Billie Eilish&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Billie Eilish, Khalid&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Blessd, Anuel AA, Ovy On The Drums&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Bruno Mars&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Carin Leon, Gabito Ballesteros&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Central Cee, 21 Savage&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Central Cee, Dave&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Chappell Roan&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Charli xcx, Billie Eilish&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Chase Atlantic&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Chezile&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Chrystal, NOTION&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Cigarettes After Sex&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Coldplay&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Danny Ocean, Kapo&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Dionela&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;DJ Snake, Justin Bieber&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Djo&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Doechii&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Don Omar, Lucenzo&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Don Toliver&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Drake, Wizkid, Kyla&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Ed Sheeran&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Eminem&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Feid, ATL Jacob&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Fleetwood Mac&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;FloyyMenor&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;FloyyMenor, Cris Mj&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Frank Ocean&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Fuerza Regida, Grupo Frontera&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Gabito Ballesteros, Natanael Cano, Luis R Conriquez, Neton Vega&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;GELO&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Gigi Perez&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Gorillaz&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Gracie Abrams&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Harry Styles&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Henry Freitas, Mc Th&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Hozier&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Imagine Dragons&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Imogen Heap&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;J Balvin, Bad Bunny&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Jimin&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Jin&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Jombriel, Alex Krack, Jøtta&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Jorsshh, Fuerza Regida&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Journey&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Jung Kook, Latto&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;KAROL G&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Keane&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Kendrick Lamar&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Kendrick Lamar, Lefty Gunplay&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Kendrick Lamar, SZA&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Lady Gaga&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Lady Gaga, Bruno Mars&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Lana Del Rey&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Lauv&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Lewis Capaldi&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Lil Tecca&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Linkin Park&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Lola Young&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Lord Huron&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Luis R Conriquez, Peso Pluma&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Macklemore, Ryan Lewis, Macklemore &amp; Ryan Lewis, Ray Dalton&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Miley Cyrus&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Mitski&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Myke Towers, benny blanco&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Myles Smith&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Natanzinho Lima&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Naughty Boy, Sam Smith&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Neton Vega&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Nilo, Mc Paiva ZS, DJ Di Marques, FamousKyo&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Noah Kahan&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Nuzio Medeiros, Henry Freitas, Kadu Martins&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Omar Courtz, De La Rose&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;One Direction&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;OneRepublic&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Oruam, Zé Felipe, MC Tuto, Dj Lc da Roça, MC K9, Mc Rodrigo do CN, mc pl alves&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Oscar Maydon, Fuerza Regida&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Peso Pluma&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Pitbull, AFROJACK, Ne-Yo, Nayer&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Post Malone, Morgan Wallen&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Radiohead&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Rauw Alejandro, Bad Bunny&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Rauw Alejandro, Romeo Santos&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Rihanna&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Rihanna, Calvin Harris&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;ROSÉ&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;ROSÉ, Bruno Mars&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Ruth B.&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Sabrina Carpenter&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Sam Barber, Avery Anna&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Sexyy Red, Bruno Mars&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Shaboozey&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;SZA&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;SZA, Kendrick Lamar&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;SZA, Travis Scott&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tate McRae&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Taylor Swift&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tears For Fears&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Teddy Swims&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tenxi, Jemsii, Naykilla&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Chainsmokers, Coldplay&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Chainsmokers, Halsey&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Goo Goo Dolls&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Kid LAROI&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Kid LAROI, Justin Bieber&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Killers&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Lantis&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Marías&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Neighbourhood&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Police&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Walters&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Weeknd&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Weeknd, Anitta&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Weeknd, Daft Punk&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Weeknd, JENNIE, Lily-Rose Depp&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;The Weeknd, Playboi Carti&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tito Double P&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tito Double P, Junior H&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tito Double P, Peso Pluma&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tom Odell&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tommy Richman&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;TOTO&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Travis Scott&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Travis Scott, Playboi Carti&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;TV Girl&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Twenty One Pilots&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tyla&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tyler, The Creator, GloRilla, Sexyy Red, Lil Wayne&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tyler, The Creator, Kali Uchis&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Tyler, The Creator, Lola Young&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;V, Park Hyo Shin&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;Vance Joy&quot;' />
+              <groupfilter function='member' level='[none:artist_names:nk]' member='&quot;yung kai&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[cnt:rank:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='18' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#000000' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#1db954' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[ctd:rank:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#00ff00' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[sum:streams:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#00ff00' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]</rows>
+        <cols>([federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[ctd:rank:qk] + [federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[sum:streams:qk])</cols>
+      </table>
+      <simple-id uuid='{8E0A3AB0-25CF-483D-A607-2C3B55FC4CF2}' />
+    </worksheet>
+    <worksheet name='Most popular tracks'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='regional-global-weekly-2025-01-30' name='federated.1s5p8am0iw9awt1dai0vb1gfg3ik' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s5p8am0iw9awt1dai0vb1gfg3ik'>
+            <column datatype='string' name='[artist_names]' role='dimension' type='nominal' />
+            <column-instance column='[artist_names]' derivation='None' name='[none:artist_names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[track_name]' derivation='None' name='[none:track_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[uri]' derivation='None' name='[none:uri:nk]' pivot='key' type='nominal' />
+            <column datatype='integer' name='[streams]' role='measure' type='quantitative' />
+            <column-instance column='[streams]' derivation='Sum' name='[sum:streams:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[track_name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[uri]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[Action (artist_names)]'>
+            <groupfilter function='level-members' level='[artist_names]' user:ui-action-filter='[Action1_53B5164B8781483DBB91E328C179257E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:uri:nk]' direction='DESC' measure-to-sort-by='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[sum:streams:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[Action (artist_names)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:uri:nk]' value='false' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#000000' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#00ff00' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:uri:nk] / ([federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:track_name:nk] / [federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]))</rows>
+        <cols>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[sum:streams:qk]</cols>
+      </table>
+      <simple-id uuid='{2C198C33-C670-47A5-98A1-86894EADBE18}' />
+    </worksheet>
+    <worksheet name='Track and weeks on chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='regional-global-weekly-2025-01-30' name='federated.1s5p8am0iw9awt1dai0vb1gfg3ik' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s5p8am0iw9awt1dai0vb1gfg3ik'>
+            <column datatype='string' name='[artist_names]' role='dimension' type='nominal' />
+            <column-instance column='[track_name]' derivation='None' name='[none:track_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[weeks_on_chart]' derivation='Sum' name='[sum:weeks_on_chart:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[track_name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[weeks_on_chart]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[Action (artist_names)]'>
+            <groupfilter function='level-members' level='[artist_names]' user:ui-action-filter='[Action1_53B5164B8781483DBB91E328C179257E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:track_name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[sum:weeks_on_chart:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[Action (artist_names)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#000000' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#00ff00' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[sum:weeks_on_chart:qk]</rows>
+        <cols>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:track_name:nk]</cols>
+      </table>
+      <simple-id uuid='{0B599D2A-9F0E-4188-B665-E7CB2F456B0E}' />
+    </worksheet>
+    <worksheet name='Track vs Streams'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='regional-global-weekly-2025-01-30' name='federated.1s5p8am0iw9awt1dai0vb1gfg3ik' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s5p8am0iw9awt1dai0vb1gfg3ik'>
+            <column datatype='string' name='[artist_names]' role='dimension' type='nominal' />
+            <column-instance column='[rank]' derivation='CountD' name='[ctd:rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[artist_names]' derivation='None' name='[none:artist_names:nk]' pivot='key' type='nominal' />
+            <column datatype='integer' name='[rank]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[streams]' role='measure' type='quantitative' />
+            <column-instance column='[streams]' derivation='Sum' name='[sum:streams:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[Action (artist_names)]'>
+            <groupfilter function='level-members' level='[artist_names]' user:ui-action-filter='[Action1_53B5164B8781483DBB91E328C179257E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[Action (artist_names)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[ctd:rank:qk]' field-type='quantitative' max='14' min='-1' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[sum:streams:qk]' field-type='quantitative' max='323991575' min='4894863' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#000000' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.1974033117294312' />
+                <format attr='mark-color' value='#1db954' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='947' />
+                <format attr='maxwidth' value='947' />
+                <format attr='minheight' value='580' />
+                <format attr='maxheight' value='580' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[sum:streams:qk]</rows>
+        <cols>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[ctd:rank:qk]</cols>
+      </table>
+      <simple-id uuid='{F144A6CD-0422-46EE-AF80-4837299C36F5}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#000000' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='color' value='#ffffff' />
+          <format attr='background-color' value='#ffffff' />
+        </style-rule>
+        <style-rule element='dash-subtitle'>
+          <format attr='background-color' value='#000000' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97978' id='8' param='horz' type-v2='layout-flow' w='99036' x='482' y='1011'>
+            <zone h='97978' id='6' type-v2='layout-basic' w='89885' x='482' y='1011'>
+              <zone h='48989' id='3' name='Most popular artists' w='46871' x='43496' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48989' id='5' name='Track vs Streams' w='43014' x='482' y='1011'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48989' id='10' name='Most popular tracks' w='46871' x='43496' y='1011'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48989' id='11' name='Track and weeks on chart' w='43014' x='482' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='152' h='97978' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='9151' x='90367' y='1011'>
+              <zone h='97978' id='9' name='Track vs Streams' pane-specification-id='2' param='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]' type-v2='color' w='9151' x='90367' y='1011'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97978' id='22' param='vert' type-v2='layout-flow' w='99036' x='482' y='1011'>
+                <zone fixed-size='280' h='48989' id='5' is-fixed='true' name='Track vs Streams' w='43014' x='482' y='1011'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='97978' id='9' name='Track vs Streams' pane-specification-id='2' param='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]' type-v2='color' w='9151' x='90367' y='1011'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48989' id='10' is-fixed='true' name='Most popular tracks' w='46871' x='43496' y='1011'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48989' id='11' is-fixed='true' name='Track and weeks on chart' w='43014' x='482' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48989' id='3' is-fixed='true' name='Most popular artists' w='46871' x='43496' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EC9D81A8-3650-4C4C-8236-7D54E616B5BD}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Most popular artists'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='vertical'>
+              <node-reference>
+                <fields>
+                  <field>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]</field>
+                </fields>
+                <multibucket>
+                  <bucket>&quot;Billie Eilish&quot;</bucket>
+                </multibucket>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6DD6D4D4-823D-4E95-A21A-B5DB3B907B8A}' />
+    </window>
+    <window class='worksheet' name='Track vs Streams'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{334E62D5-5168-46CB-9508-E0F6FCDF30AA}' />
+    </window>
+    <window class='worksheet' name='Most popular tracks' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]</field>
+            <field>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:track_name:nk]</field>
+            <field>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:uri:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{940EBB54-F4A2-4DAE-B3CC-F99387E18D1B}' />
+    </window>
+    <window class='worksheet' name='Track and weeks on chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]</field>
+            <field>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:track_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{752CFF72-7EC4-4C0E-96AD-630E6F9F4237}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Most popular artists' />
+        <viewpoint name='Most popular tracks' />
+        <viewpoint name='Track and weeks on chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Track vs Streams'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1s5p8am0iw9awt1dai0vb1gfg3ik].[none:artist_names:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{6670A49B-9D93-4B2C-BCD2-985B856A02B2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Most popular artists' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Most popular tracks' width='192'>
+      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
+      vAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Track and weeks on chart' width='114'>
+      iVBORw0KGgoAAAANSUhEUgAAAHIAAADACAYAAADY3zcDAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAB8klEQVR4nO3bMQrDMBQFQTuk0v3Pqs4oF0gZ22Q9U6p6sPA77WuttfH3XncP4DeEjBAy
+      QsgIISOEjBAyQsgIISOEjBAyQsgIISOEjBAyQsgIISOEjBAyQsgIISOEjBAyQsgIISOEjBAy
+      4n33gDPMOb++H8dx8ZLr7E/5xDPn3MYYd884jdMaIWSEkBFCRggZIWSEkBFCRggZIWSEkBFC
+      RggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFC
+      RggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFC
+      RggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFC
+      RggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFC
+      RggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFC
+      RggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFCRggZIWSEkBFC
+      RggZIWSEkBFCRggZIWTEB77BElJxQEZzAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Track vs Streams' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
